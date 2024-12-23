@@ -44,7 +44,7 @@ export default function Page() {
               Turning Waste<br />Into Wealth
             </h2>
             <p className="text-base md:text-lg text-gray-300">
-              Welcome to $DOGSHIT, where we're transforming the ordinary into extraordinary! Our proud Shiba mascot knows that sometimes the best opportunities are found in unexpected places. Join our community as we redefine value in the crypto space with a dash of humor and a lot of potential!
+              Welcome to $DOGSHIT, where we&apos;re transforming the ordinary into extraordinary! Our proud Shiba mascot knows that sometimes the best opportunities are found in unexpected places. Join our community as we redefine value in the crypto space with a dash of humor and a lot of potential!
             </p>
             <Link
               href="https://t.me/+IvsqmPa3lIkxMWM0"
