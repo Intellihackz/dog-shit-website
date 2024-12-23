@@ -26,7 +26,7 @@ export default function Page() {
 
         {/* Icon Navigation */}
         <div className="flex justify-center gap-6 md:gap-8 mb-12 md:mb-24">
-          <Link href="https://x.com/dogshitc0in" className="text-[#8B4513] hover:text-[#654321] transition-colors">
+          <Link href="https://x.com/hodldogshit" className="text-[#8B4513] hover:text-[#654321] transition-colors">
             <Twitter className="w-5 h-5 md:w-6 md:h-6" />
           </Link>
           <Link href="https://t.me/+IvsqmPa3lIkxMWM0" className="text-[#8B4513] hover:text-[#654321] transition-colors">
@@ -101,7 +101,7 @@ export default function Page() {
         <div className="max-w-4xl mx-auto px-4">
           <h3 className="text-2xl md:text-3xl font-bold text-center mb-6 md:mb-8">Join Our Community</h3>
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-            <SocialLink href="https://x.com/dogshitc0in" icon={<Twitter className="w-5 h-5 md:w-6 md:h-6" />} label="Twitter" />
+            <SocialLink href="https://x.com/hodldogshit" icon={<Twitter className="w-5 h-5 md:w-6 md:h-6" />} label="Twitter" />
             <SocialLink href="https://t.me/+IvsqmPa3lIkxMWM0" icon={<Send className="w-5 h-5 md:w-6 md:h-6" />} label="Telegram" />
           </div>
         </div>
