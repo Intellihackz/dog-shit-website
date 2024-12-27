@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Link from "next/link"
 import Image from "next/image"
 import { Send, Trash2, Twitter, Copy, Check } from 'lucide-react'
-
+import Marquee from "react-fast-marquee";
 export default function Page() {
   const [copied, setCopied] = useState(false)
 
@@ -79,6 +79,61 @@ export default function Page() {
             </div>
           </div>
         </div>
+
+        <div className='py-8'>
+          <Marquee>
+            <div className="w-full py-16">
+              <div className="container mx-auto px-4">
+                <div className="flex flex-wrap items-center justify-center gap-16 space-x-16">
+                  {/* NEAR Partnership */}
+                  <Link href="https://near.org" target="_blank" rel="noopener noreferrer">
+                    <div className="flex items-center gap-6">
+                      <span className="text-lg text-white">Powered by</span>
+                      <div className="relative h-16 w-48">
+                        <Image
+                          src="https://unavatar.io/x/NEARProtocol?height=64&width=192"
+                          alt="NEAR Logo"
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                    </div>
+                  </Link>
+
+                  {/* Meme.cooking Partnership */}
+                  <Link href="https://meme.cooking" target="_blank" rel="noopener noreferrer">
+                    <div className="flex items-center gap-6">
+                      <span className="text-lg text-white">Created on</span>
+                      <div className="relative h-16 w-48">
+                        <Image
+                          src="https://bullishfriendsonnear-intellihackzs-projects.vercel.app/memecook.png?height=64&width=192"
+                          alt="Meme.cooking Logo"
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                    </div>
+                  </Link>
+
+                  {/* VEAX Partnership */}
+                  <Link href="https://veax.com" target="_blank" rel="noopener noreferrer">
+                    <div className="flex items-center gap-6">
+                      <span className="text-lg text-white">In partnership with</span>
+                      <div className="relative h-16 w-48">
+                        <Image
+                          src="https://unavatar.io/x/veaxlabs?height=64&width=192"
+                          alt="VEAX Logo"
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </Marquee>
+        </div>
       </div>
 
       {/* Important Links Section */}
@@ -90,7 +145,7 @@ export default function Page() {
               href="https://meme.cooking/meme/1408"
               className="px-6 md:px-8 py-2 md:py-3 rounded-full border-2 border-[#8B4513] bg-[#1a1a2e] hover:bg-[#8B4513]/10 transition-colors text-sm md:text-base"
             >
-              Buy $DOGSHIT
+              $DOGSHIT on Meme.Cooking
             </Link>
           </div>
         </div>
