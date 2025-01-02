@@ -81,13 +81,13 @@ export default function Page() {
         </div>
 
         <div className='py-8'>
-          <Marquee>
-            <div className="w-full py-16">
-              <div className="container mx-auto px-4">
-                <div className="flex flex-wrap items-center justify-center gap-16 space-x-16">
+          <div className="w-full py-16">
+            <div className="container mx-auto px-4">
+              <Marquee>
+                <div className="flex flex-wrap items-center justify-center ">
                   {/* NEAR Partnership */}
                   <Link href="https://near.org" target="_blank" rel="noopener noreferrer">
-                    <div className="flex items-center gap-6">
+                    <div className="flex items-center">
                       <span className="text-lg text-white">Powered by</span>
                       <div className="relative h-16 w-48">
                         <Image
@@ -102,7 +102,7 @@ export default function Page() {
 
                   {/* Meme.cooking Partnership */}
                   <Link href="https://meme.cooking" target="_blank" rel="noopener noreferrer">
-                    <div className="flex items-center gap-6">
+                    <div className="flex items-center">
                       <span className="text-lg text-white">Created on</span>
                       <div className="relative h-16 w-48">
                         <Image
@@ -117,7 +117,7 @@ export default function Page() {
 
                   {/* VEAX Partnership */}
                   <Link href="https://veax.com" target="_blank" rel="noopener noreferrer">
-                    <div className="flex items-center gap-6">
+                    <div className="flex items-center ">
                       <span className="text-lg text-white">In partnership with</span>
                       <div className="relative h-16 w-48">
                         <Image
@@ -130,9 +130,9 @@ export default function Page() {
                     </div>
                   </Link>
                 </div>
-              </div>
+              </Marquee>
             </div>
-          </Marquee>
+          </div>
         </div>
       </div>
 
