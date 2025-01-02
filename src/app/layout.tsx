@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 export const metadata: Metadata = {
   title: "Dog Shit",
   description:
@@ -32,6 +33,7 @@ export const metadata: Metadata = {
     creator: "@zephyrdev_",
     images: ["https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-jxigjcoUifeLed8qqGu2y9RCd5OJF5.png"],
   },
+
 }
 export default function RootLayout({
   children,
@@ -40,6 +42,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <GoogleAnalytics />
+      </head>
       <body>
         {children}
         <Analytics />
